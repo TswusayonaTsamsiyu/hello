@@ -4,8 +4,8 @@ def say_hello(name=None):
 
 
 def ask_name():
-  return input("Yo! What's your name?\n> ")
+    return input("Yo! What's your name?\n> ")
 
 
 if __name__ == "__main__":
-  say_hello(ask_name())
+    say_hello(ask_name())
